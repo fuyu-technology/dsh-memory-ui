@@ -1,0 +1,51 @@
+{
+  "name": "dsh-memory-ui",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 插件：设置页里的「记忆与知识库」——查看会话短期记忆（活跃上下文与最近消息）、长期记忆条目、知识库条目，并对会话与条目做多选、一键归档、一键取消归档。 | DSH plugin: a memory & knowledge panel in the settings page.",
+  "author": "蝠羽科技",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "knowledge-base",
+    "archive",
+    "batwing-tech"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "locale/*.json"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": ">=4.0.0-rc <5"
+  },
+  "engines": {
+    "node": "^22.15.0 || >=24.0.0"
+  },
+  "scripts": {
+    "check": "node --check index.js && node --check client.js"
+  }
+}

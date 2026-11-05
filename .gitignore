@@ -1,0 +1,20 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── 运行时数据：可能含个人记忆 / 知识库正文 / 会话内容，禁止提交 ──
+memory.json
+knowledge.json
+index.json
+config.json
+workspace.json
+storages/
+*.jsonl
+*.zstd
+
+# ── 本地备份文件 ──
+*.bak
+*.bak-*

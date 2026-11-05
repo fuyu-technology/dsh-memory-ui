@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#16181d"/>
+  <!-- 叠层记忆卡片：代表跨会话沉淀的条目 -->
+  <rect x="13" y="16" width="30" height="8" rx="3" fill="#4a5163"/>
+  <rect x="13" y="28" width="30" height="8" rx="3" fill="#6b7690"/>
+  <rect x="13" y="40" width="30" height="8" rx="3" fill="#8f9db8"/>
+  <!-- 检索放大镜：代表按需召回 -->
+  <circle cx="45" cy="43" r="9" fill="none" stroke="#f0a04b" stroke-width="3"/>
+  <path d="M51.5 49.5 L57 55" fill="none" stroke="#f0a04b" stroke-width="3.4" stroke-linecap="round"/>
+  <!-- 命中的关键词标记 -->
+  <circle cx="45" cy="43" r="2.6" fill="#39d98a"/>
+</svg>
