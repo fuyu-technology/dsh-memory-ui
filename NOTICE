@@ -1,0 +1,29 @@
+蝠羽科技 / fuyu-technology
+Copyright 2026 蝠羽科技
+
+dsh-memory-ui 由 蝠羽科技 制作与维护，著作权归 蝠羽科技 所有。
+
+本产品依据 Apache License, Version 2.0 (the "License") 授权使用、复制、修改与再分发；
+许可证全文见本仓库的 LICENSE 文件。
+
+二改与署名规则（Attribution Retention）
+--------------------------------------
+- 允许二次修改：任何人可自由使用、复制、修改、合并、再分发本产品，含商业用途，
+  只需遵守 Apache License 2.0 第 4 条。
+- 署名不可更改：任何二次修改或再分发的版本，必须保留原制作方署名——
+  源码文件头部的 "Copyright 2026 蝠羽科技" 版权声明，以及本 NOTICE 的署名内容。
+  不得删除、遮蔽、改写、替换或以任何方式隐匿上述署名。
+  （Apache-2.0 第 4(c) 条要求衍生作品的源代码形式保留全部版权与署名声明；
+    第 4(d) 条要求衍生作品复制本 NOTICE 中的署名内容。）
+- 二次修改者可在保留原署名的同时，额外标注自己的修改说明与版权声明。
+
+English summary
+---------------
+This Work is licensed under the Apache License, Version 2.0.
+Modifications and redistribution (including commercial use) are permitted,
+provided that you comply with section 4 of the License.
+The attribution of 蝠羽科技 (fuyu-technology) must be preserved: the copyright
+notice in the source headers and the attribution notices in this NOTICE file
+must be retained in any derivative work (Apache-2.0 section 4(c) and 4(d)).
+Removing or altering that attribution is not permitted. You may add your own
+change notices alongside the original attribution.

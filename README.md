@@ -140,6 +140,15 @@ keywords[] / auto / signature / createdAt / updatedAt / archivedAt`。
 - 客户端 hooks 顺序是硬约束：`MemoryPanel` / `EntryTab` 的 `useState` 数量与顺序不能变，
   新逻辑一律用 `useCallback` / `useMemo` / `useEffect`。
 
-## License
+## 许可
 
-MIT
+Apache-2.0 · 蝠羽科技
+
+**允许二次修改与再分发（含商业用途），但不得更改制作方署名。**
+
+- 许可证全文：[LICENSE](./LICENSE)
+- 署名与二改规则：[NOTICE](./NOTICE)
+- 源码文件头部已带 `Copyright 2026 蝠羽科技` 版权声明，二次修改时必须保留；
+  依 Apache-2.0 第 4(c)、4(d) 条，衍生作品须保留全部版权与署名声明，
+  并复制 NOTICE 中的署名内容。删除或改写署名即不再符合本许可。
+- 二次修改者可以在保留原署名的前提下，额外标注自己的修改说明与版权声明。
